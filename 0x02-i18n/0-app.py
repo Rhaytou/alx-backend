@@ -12,7 +12,7 @@ app.url_map.strict_slashes = False
 def get_index() -> str:
     """The home/index page.
     """
-    return render_template('templates/1-index.html')
+    return render_template('templates/0-index.html')
 
 
 if __name__ == '__main__':
